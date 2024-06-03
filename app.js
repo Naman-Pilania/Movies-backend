@@ -5,7 +5,7 @@ const route=require('./router/auth-route');
 const conectdb = require('./utils/db');
 const cors = require('cors')
 var corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://soft-cannoli-040014.netlify.app/',
     methods:"GET,POST,PUT,PATCH,DELETE,HEAD",
     credentials:true,
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
